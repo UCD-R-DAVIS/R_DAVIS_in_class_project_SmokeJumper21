@@ -16,4 +16,3 @@ running_laps <- running_laps %>%
     form = if_else(year == 2024, "new", "old")
   )
 head(running_laps)
-
