@@ -7,4 +7,3 @@ mloa2 <- mloa %>%
   filter(temp_C_2m != -999.9) %>%  # Remove missing temperature values
   filter(windSpeed_m_s != -999.9)  # Remove missing wind speed values
 colnames(mloa)
-str(mloa)
